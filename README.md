@@ -1,11 +1,9 @@
----
-title: "Getting and Cleaning Data Course Project"
-output: github_document
----
+#Getting and Cleaning Data Course Project
 
 This repo contains my submission for the Getting and Cleaning Data Course Project.
 
 The R script ```run_analysis.R``` carries out the following operations:
+**Note: working directory needs to set to ```UCI HAR Dataset``` for the script to run properly.**
 
 1. Loads all required data sets
 2. Adds variable names to resulting data frames
@@ -21,5 +19,3 @@ The R script ```run_analysis.R``` carries out the following operations:
 13. Groups dataset by activity & subjectID
 14. Calculates mean of each variable for each combination of activity & subjectId
 15. Outputs resulting dataset as a text file named ```output.txt```
-
-**Note: working directory needs to set to the ```UCI HAR Dataset``` for the script to run.**
